@@ -90,12 +90,3 @@ p {
     color: #294B3A;
 }
 
-.btn-success {
-    background-color: #527653;
-    border-color: #527653;
-}
-
-.btn-success:hover {
-    background-color: #3D6044;
-    border-color: #3D6044;
-}
