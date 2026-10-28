@@ -17,31 +17,24 @@
 </head>
 
 <body>
-
     <header class="container py-4">
         <h1>Planificador de tareas</h1>
         <p>Organiza tus actividades y lleva el control de tu progreso.</p>
     </header>
-
     <main class="container">
-
         <section id="formulario" class="mb-5">
-
             <h2 class="mb-4">Crear nueva tarea</h2>
-
             <form id="formulario-tarea">
-
                 <div class="mb-3">
                     <label for="nombre-tarea" class="form-label">
                         Nombre de la tarea
                     </label>
-
                     <input
                         type="text"
                         class="form-control"
                         id="nombre-tarea"
                         placeholder="Tarea que quiero agregar"
-                        required>
+                       required>
                 </div>
 
                 <div class="mb-3">
@@ -56,85 +49,60 @@
                         placeholder="Describe las actividades que debes realizar"
                         required></textarea>
                 </div>
-
                 <div class="row">
-
                     <div class="col-md-6 mb-3">
                         <label for="fecha-limite" class="form-label">
                             Fecha límite
                         </label>
-
                         <input
                             type="date"
                             class="form-control"
                             id="fecha-limite"
                             required>
                     </div>
-
                     <div class="col-md-6 mb-3">
                         <label for="prioridad-tarea" class="form-label">
                             Prioridad
                         </label>
-
                         <select
                             class="form-select"
                             id="prioridad-tarea"
                             required>
-
                             <option value="" selected disabled>
                                 Selecciona una prioridad
                             </option>
-
                             <option value="Baja">Baja</option>
                             <option value="Media">Media</option>
                             <option value="Alta">Alta</option>
-
                         </select>
                     </div>
-
                 </div>
-
                 <div class="mb-4">
                     <label for="categoria-tarea" class="form-label">
                         Categoría
                     </label>
-
                     <select
                         class="form-select"
                         id="categoria-tarea"
                         required>
-
                         <option value="" selected disabled>
                             Selecciona una categoría
                         </option>
-
                         <option value="Estudio">Estudio</option>
                         <option value="Trabajo">Trabajo</option>
                         <option value="Personal">Personal</option>
                         <option value="Otro">Otro</option>
-
                     </select>
                 </div>
-
                 <button type="submit" class="btn btn-primary">
                     Crear tarea
                 </button>
-
                 <button type="reset" class="btn btn-outline-secondary">
                     Limpiar formulario
-                </button>
-
-            </form>
-
-        </section>
-
+                </button>      </form> </section>
         <section id="lista-tareas" class="mb-5">
-
             <h2 class="mb-4">Lista de tareas</h2>
-
             <div id="contenedor-tareas" class="row g-3">
-
-                <!-- Aquí se mostrarán las tarjetas creadas con JavaScript -->
 
             </div>
 

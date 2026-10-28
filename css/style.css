@@ -1,43 +1,47 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
-    background-image: url("../img/thumb-1920-1354929.jpeg");
+    background-image: url("../img/wp15602159-maomao-4k-wallpapers.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #294B3A;
+    color: #F1F0E5;
 }
 
 h1 {
     text-align: start;
-    color: #294B3A;
+    color: #FFF8E7;
     font-weight: 800;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 p {
     text-align: start;
-    color: #355641;
+    color: #FFF8E7;
 }
 
 #formulario,
 #lista-tareas {
-    background-color: rgba(244, 247, 235, 0.94);
-    border: 1px solid #D5E2CC;
+    background: rgba(24, 43, 29, 0.62);
+    border: 1px solid rgba(255, 248, 231, 0.25);
     border-radius: 16px;
-    box-shadow: 0 8px 25px rgba(35, 65, 43, 0.15);
 }
 
 #formulario h2,
 #lista-tareas h2 {
-    color: #294B3A;
+    color: #FFF8E7;
     text-align: center;
     font-weight: 800;
 }
 
 .form-label {
-    color: #355641;
+    color: #FFF8E7;
     font-weight: 700;
 }
 
@@ -57,28 +61,41 @@ p {
 .form-select:focus {
     background-color: #F5F7EF;
     color: #263D2D;
-    border-color: #527653;
-    box-shadow: 0 0 0 3px rgba(82, 118, 83, 0.2);
+    border-color: #A5C69B;
 }
 
 .btn-primary {
     background-color: #527653;
     border-color: #527653;
     color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 9px;
 }
 
 .btn-primary:hover {
     background-color: #3D6044;
     border-color: #3D6044;
+    color: #FFFFFF;
 }
 
 .btn-outline-secondary {
-    color: #355641;
-    border-color: #8FA68A;
+    color: #FFF8E7;
+    border-color: #D5E2CC;
+    border-radius: 9px;
 }
 
 .btn-outline-secondary:hover {
     background-color: #D5E2CC;
-    border-color: #8FA68A;
+    border-color: #D5E2CC;
     color: #294B3A;
+}
+
+.btn-success {
+    background-color: #527653;
+    border-color: #527653;
+}
+
+.btn-success:hover {
+    background-color: #3D6044;
+    border-color: #3D6044;
 }
