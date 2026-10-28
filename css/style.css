@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url("../img/thumb-1920-1354929.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #294B3A;
+}
+
+h1 {
+    text-align: start;
+    color: #294B3A;
+    font-weight: 800;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+p {
+    text-align: start;
+    color: #355641;
+}
+
+#formulario,
+#lista-tareas {
+    background-color: rgba(244, 247, 235, 0.94);
+    border: 1px solid #D5E2CC;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(35, 65, 43, 0.15);
+}
+
+#formulario h2,
+#lista-tareas h2 {
+    color: #294B3A;
+    text-align: center;
+    font-weight: 800;
+}
+
+.form-label {
+    color: #355641;
+    font-weight: 700;
+}
+
+.form-control,
+.form-select {
+    background-color: #E8EEDD;
+    color: #263D2D;
+    border: 1px solid #B7C9AC;
+    border-radius: 9px;
+}
+
+.form-control::placeholder {
+    color: #788A75;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #F5F7EF;
+    color: #263D2D;
+    border-color: #527653;
+    box-shadow: 0 0 0 3px rgba(82, 118, 83, 0.2);
+}
+
+.btn-primary {
+    background-color: #527653;
+    border-color: #527653;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #3D6044;
+    border-color: #3D6044;
+}
+
+.btn-outline-secondary {
+    color: #355641;
+    border-color: #8FA68A;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #D5E2CC;
+    border-color: #8FA68A;
+    color: #294B3A;
+}
